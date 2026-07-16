@@ -5,6 +5,7 @@
     @apply bg-blue-700 text-white font-bold text-3xl hover:bg-blue-900 
 }
 
+
 .Navbar{
     @apply bg-purple-600 font-serif font-black hover:bg-blue-900
 }
