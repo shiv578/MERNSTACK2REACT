@@ -2,12 +2,12 @@
 .h1Design{
     /* @apply  is tailwind component */
     /*  */
-    @apply bg-blue-700 text-white font-bold text-3xl hover:bg-blue-900
+    @apply bg-blue-700 text-white font-bold text-3xl hover:bg-blue-900 
 }
 
-.Card{
+.Navbar{
 
+    @apply bg-purple-600 font-serif font-black hover:bg-blue-900
 }
-
 
 
