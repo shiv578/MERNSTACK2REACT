@@ -1,8 +1,8 @@
-body{
-    background-color: rgba(42, 11, 61, 0.658);
-    text-align: center;
-    color: aqua;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+@import "tailwindcss";
+.h1Design{
+    /* @apply  is tailwind component */
+    /*  */
+    @apply bg-blue-700 text-white font-bold text-3xl hover:bg-blue-900
 }
 
 
