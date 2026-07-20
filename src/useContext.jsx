@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import { useContext ,createContext,useState} from 'react'
 
@@ -9,6 +9,12 @@ function App() {
 
     // const{theme,setTheme} = useContext(ThemeContext);
 const [theme,setTheme] = useState("light");
+
+useEffect(()=>{
+    document.body.style.backgroundColor =  theme === "light" ? "white" : 'black';
+        document.body.style.color =  theme === "light" ? "black" : 'white';
+
+})
 
 
   return (
