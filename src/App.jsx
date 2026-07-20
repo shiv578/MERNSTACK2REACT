@@ -1,14 +1,12 @@
-import File1 from "./File1";
-import Card from "./Components/Card";
-import Navbar from "./Components/Navbar";
-
-
+// import File1 from "./File1";
+// import Card from "./Components/Card";
+import Appp from "./Usememo.jsx";
 function App() {
   return (
     <>
-      <File1 />
-      <Card />
-      <Navbar />
+      {/* <File1 />
+      <Card /> */}
+      <Appp />
     </>
   );
 }
