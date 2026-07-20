@@ -14,7 +14,7 @@ const [theme,setTheme] = useState("light");
     <div>
 
 
-<ThemeContext.Provider value = {(theme,setTheme)}>
+            <ThemeContext.Provider value={{ theme, setTheme }}>
 
 
 <Home />
