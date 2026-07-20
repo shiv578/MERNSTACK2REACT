@@ -14,6 +14,7 @@ useEffect(()=>{
     document.body.style.backgroundColor =  theme === "light" ? "white" : 'black';
         document.body.style.color =  theme === "light" ? "black" : 'white';
 
+        
 })
 
 
