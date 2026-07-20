@@ -4,18 +4,18 @@ import { useContext ,createContext,useState} from 'react'
 
 const ThemeContext = createContext();
 
-function useContext() {
+function App() {
 
     // const{theme,setTheme} = useContext(ThemeContext);
+const [theme,setTheme] = useState("light");
 
 
   return (
     <div>
 
-const [theme,setTheme] = useState("light");
 
 <ThemeContext.Provider value = {(theme,setTheme)}>
-    
+
 
 <Home />
 
@@ -32,4 +32,4 @@ const [theme,setTheme] = useState("light");
   );
 }
 
-export default useContext
+export default App;
