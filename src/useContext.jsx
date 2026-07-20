@@ -8,13 +8,14 @@ function useContext() {
 
     // const{theme,setTheme} = useContext(ThemeContext);
 
-    
+
   return (
     <div>
 
 const [theme,setTheme] = useState("light");
 
 <ThemeContext.Provider value = {(theme,setTheme)}>
+    
 <Home />
 
 </ThemeContext.Provider>
