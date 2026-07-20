@@ -16,6 +16,7 @@ const [theme,setTheme] = useState("light");
 
 <ThemeContext.Provider value = {(theme,setTheme)}>
     
+
 <Home />
 
 </ThemeContext.Provider>
